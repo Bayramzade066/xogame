@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/xogame/static/css/main.d6c4c68d.css",
+    "main.js": "/xogame/static/js/main.c1cddd75.js",
+    "static/js/787.6fe98460.chunk.js": "/xogame/static/js/787.6fe98460.chunk.js",
+    "static/media/bg.jpg": "/xogame/static/media/bg.4072a906781b30f42cbe.jpg",
+    "index.html": "/xogame/index.html",
+    "main.d6c4c68d.css.map": "/xogame/static/css/main.d6c4c68d.css.map",
+    "main.c1cddd75.js.map": "/xogame/static/js/main.c1cddd75.js.map",
+    "787.6fe98460.chunk.js.map": "/xogame/static/js/787.6fe98460.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6c4c68d.css",
+    "static/js/main.c1cddd75.js"
+  ]
+}
