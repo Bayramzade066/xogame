@@ -1,13 +1,94 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font: 17px "Century Gothic", Futura, sans-serif;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: none;
+    border: 2px solid rgb(126, 30, 126);
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 10rem;
+    height: 10rem;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width:10rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .square:focus {
+    color: white;
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background:none;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13rem;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgb(126, 30, 126);
+    height: 30px;
+    padding: 10px;
+    color: white;
+  }
+  .text{
+    color: rgb(163, 46, 163);
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-right: 4rem;
+    margin-top: 15rem;
+    
+  }
+  .game-board{
+    background: none;
+  }
+  
+  .gs{
+    color: white;
+    font-size: 18px;
+    background-color: black;
+  display: none;
+  justify-content: center;
+  border: 2px solid rgb(126, 30, 126);
+  margin-top: 4rem;
+  padding: 10px;
+  align-items: center;
+  cursor: pointer ;
+  margin-left: 7.8rem;
+  }
