@@ -116,7 +116,7 @@ function Square(props) {
   <>
   <div className="bg">
         <div className="lg">  
-  <h1 className='text'>React-Tic Tac Toe</h1>
+  <h1 className='text'>React- Tic Tac Toe</h1>
   <div className="game">
           <div className="game-board">
             <Board
