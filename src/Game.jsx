@@ -97,7 +97,7 @@ function Square(props) {
             document.querySelector(".gs").style.display="flex"
            }, 500);
 
-       status= 'This Winner: ' + winner
+       status= 'Winner: ' + winner
        document.querySelector(".gs").addEventListener('click',()=>{
         window.location.reload();
        })
@@ -114,7 +114,8 @@ function Square(props) {
       return (
         
   <>
-  
+  <div className="bg">
+        <div className="lg">  
   <h1 className='text'>React-Tic Tac Toe</h1>
   <div className="game">
           <div className="game-board">
@@ -130,6 +131,8 @@ function Square(props) {
           
         </div>
         <button className="gs">Game Restart</button>
+        </div>
+  </div>
   </>
       );
     }

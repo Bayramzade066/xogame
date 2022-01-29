@@ -1,15 +1,25 @@
-body {
-    background-image: url(./bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body{
+  margin: 0px;
+}
+
+
+.bg {
+  background-image: url(./bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  }
+  .lg{
+    height: 100vh;
+    width: 100%;
     font: 17px "Century Gothic", Futura, sans-serif;
-    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    box-sizing: border-box;
   }
-  
   ol, ul {
     padding-left: 30px;
   }
@@ -26,23 +36,23 @@ body {
   
   .square {
     background: none;
-    border: 2px solid rgb(126, 30, 126);
+    border: 2px solid rgb(143, 14, 143);
     float: left;
     font-size: 50px;
     font-weight: bold;
     line-height: 10rem;
-    height: 10rem;
+    height: 11rem;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width:10rem;
+    width:11rem;
     color: white;
     cursor: pointer;
   }
   
   .square:focus {
-    color: white;
+    color: rgb(143, 14, 143);
     outline: none;
   }
   
@@ -62,17 +72,16 @@ body {
     margin-left: 20px;
     font-size: 20px;
     font-weight: bold;
-    border: 2px solid rgb(126, 30, 126);
+    border: 2px solid rgb(143, 14, 143);
     height: 30px;
     padding: 10px;
     color: white;
   }
   .text{
-    color: rgb(163, 46, 163);
+    color: rgb(143, 14, 143);
     text-align: center;
-    margin-bottom: 5rem;
-    margin-right: 4rem;
-    margin-top: 15rem;
+    margin-bottom: 2rem;
+
     
   }
   .game-board{
@@ -85,8 +94,7 @@ body {
     background-color: black;
   display: none;
   justify-content: center;
-  border: 2px solid rgb(126, 30, 126);
-  margin-top: 4rem;
+  border: 3px solid rgb(143, 14, 143);
   padding: 10px;
   align-items: center;
   cursor: pointer ;
